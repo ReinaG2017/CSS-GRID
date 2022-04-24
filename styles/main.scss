@@ -23,5 +23,11 @@
     display: grid;
  grid-template-rows: 2fr ;
 
- 
+}
+
+.featured-items {
+    display: grid;
+    row-gap: 10px; 
+  grid-template-columns: repeat(2, 1fr);  
+
 }

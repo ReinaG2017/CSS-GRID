@@ -428,4 +428,12 @@ footer {
   -ms-grid-rows: 2fr;
       grid-template-rows: 2fr;
 }
+
+.featured-items {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 10px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
 /*# sourceMappingURL=main.css.map */

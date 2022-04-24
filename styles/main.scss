@@ -4,30 +4,34 @@
 // Class assignment code below this line
 
 .page-wrapper {
-    
-    display:grid;
-   
-    grid-template-rows: 70px 1fr auto 50px;
-
+     display:grid;
+    grid-template-rows: 70px 1fr auto 50px;   
 }
 
 
 .content-wrapper {
     display: grid;
-
-    grid-template: 1fr/ 150px 1fr;
-
+     grid-template: 1fr/ 150px 1fr;
 } 
 
 .featured {
     display: grid;
  grid-template-rows: 2fr ;
-
 }
 
-.featured-items {
+
+
+
+.featured-items{
     display: grid;
-    row-gap: 10px; 
-  grid-template-columns: repeat(2, 1fr);  
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    }
+    
+    .feature-one { 
+        grid-area: 1 / 1 / 2 / 3;
+    
+     }
 
-}
+
